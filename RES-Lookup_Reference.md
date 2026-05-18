@@ -173,6 +173,23 @@
 | **$11,001 to $12,000** | **$10,000** | **$5,000** |
 | **$>$ $12,000** | **$0** (Ineligible for grant) | **$0** (Ineligible for grant) |
 
+### 3.5 Step-Up CPF Housing Grant (SUHG)
+*Available strictly to eligible **Second-Timer** applicants (married couples or families) who have previously enjoyed exactly one housing subsidy, or who are upgrading from public rental schemes.*
+* **The Structural Quantum**: A fixed baseline injection of **$15,000**, credited straight to the core applicants' CPF Ordinary Accounts based on their eligible share.
+
+#### 📊 SUHG Qualification Matrix
+| Current Living Situation | Target Flat Type & Purchase Destination |
+| :--- | :--- |
+| **Living in an HDB Public Rental Flat** | Buying a new BTO or open market resale **2-room Flexi or 3-room Standard** flat. |
+| **Living in a 2-room Flat in a Non-Mature Estate** (Bought new from HDB post-Oct 1995 OR resale with grants) | Buying a new BTO or open market resale **3-room Standard** flat. |
+
+#### 🔑 CRITICAL SUHG ELIGIBILITY CONDITIONS & CONTRAINT CLAUSES
+1. **Gross Household Income Ceiling**: The average gross monthly household income of all applicants and occupiers over the checked 12-month period must be **$\le$ $7,000**.
+2. **Employment Continuity Qualifier**: At least one core applicant must be **continuously employed for a minimum of 12 months** prior to the HFE letter application date, and must be actively working at the point of application.
+3. **Lease Liquidity Rule**: For open-market resale purchases under this scheme, the flat's remaining lease must be **$> 20\text{ years}$** and must possess a long enough tenure to **cover the youngest core member to age 95**. Shortfalls trigger prorated grant deduction penalties.
+4. **The Lock-In Structural Covenant**: All listed core members must remain bound to the flat application. Their names **cannot be legally detached or removed** from the unit during the active Minimum Occupation Period (MOP) following key collection.
+5. **Private Property Buffer**: All applicants and occupiers must not hold any interest or title in local or overseas private residential properties, and must observe a **30-month wait-out period** if they have recently disposed of one.
+
 ---
 
 ## 🏦 SECTION 4: MAXIMUM LOAN QUANTUMS, TENURES, & LTV MATRICES
