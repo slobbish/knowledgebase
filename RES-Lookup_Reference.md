@@ -1,16 +1,4 @@
-# 🗂️ RES EXAM COMPREHENSIVE LOOKUP REFERENCE LIBRARY
-
----
-
-## 📌 QUICK REFERENCE DASHBOARD & EXAM FORMAT
-* **Total Duration**: 2.5 hours per paper.
-* **Structure (Same for Paper 1 & Paper 2)**:
-    * **Section A**: 60 Multiple Choice Questions (MCQs) – 1 mark each.
-    * **Section B**: 20 MCQs based on 1 or 2 Case Studies – 2 marks each.
-* **Cognitive Levels**:
-    * **Level 1 (Remembering)**: Recognise, list, define, outline basic terms.
-    * **Level 2 (Understanding)**: Interpret, infer, classify, paraphrase, or explain scenarios.
-    * **Level 3 (Applying)**: Analyse client situations, perform calculations, and deliver professional advice.
+# 🗂️ RES COMPREHENSIVE LOOKUP LIBRARY
 
 ---
 
@@ -20,10 +8,12 @@ Use this timeline to program prompt lookups for scenario questions that explicit
 
 * **Prior to Dec 16, 2021**: Max HDB loan LTV was **90%**.
 * **Dec 16, 2021**: HDB Loan LTV cut to **85%**. ABSD Round 1 implemented (SC 2nd property: 17%, Foreigner: 30%).
+* **Jan 1, 2023**: Prevailing GST rate increased from 7% to **8%** (Applies to taxable commercial/industrial transactions and agency commissions).
 * **May 9, 2022**: Transfers of residential property into a Living Trust subjected to upfront **Entity ABSD rate**.
 * **Sep 30, 2022**: HDB Loan LTV cut to **80%**. Introduced a **15-month wait-out period** for private property owners buying non-subsidized HDB resale flats.
 * **Feb 15, 2023**: BSD Top Marginal Tier raised to **6%** (Residential portions >$15M) and **5%** (Non-Residential portions >$3M).
 * **Apr 27, 2023**: Current ABSD Rates implemented (SC 2nd property: 20%, Foreigner: 60%, Entities/Trusts: 65%).
+* **Jan 1, 2024**: Prevailing GST rate increased from 8% to **9%** (Current structural ceiling for all commercial/industrial and agency commissions).
 * **Aug 20, 2024**: HDB Loan LTV cut to **75%**. Enhanced CPF Housing Grant (EHG) significantly increased (Max family grant raised to $120,000).
 * **Jan 16, 2026**: Temporary rental occupancy cap relaxation (max 8 unrelated occupants for larger units) officially extended by HDB/URA to **Dec 31, 2028**.
 
@@ -84,10 +74,14 @@ Nationals and Permanent Residents of the following countries are accorded the **
 * Sold **> 2 Years up to 3 Years**: **5%** of sale value
 * Sold **> 3 Years**: **0%**
 
-### 1.4 Goods and Services Tax (GST) Treatment
+### 1.4 Goods and Services Tax (GST) Treatment & Historical Rates
 * **Residential Properties**: Strictly **Exempt** from GST (Applies to sale, lease, and maintenance).
 * **Commercial & Industrial Properties**: Subject to prevailing GST on the full transaction or lease value if the vendor/landlord is a GST-registered entity.
-* **Agency Commission**: Real estate broker fees are always subject to prevailing GST if the agency is GST-registered.
+* **Agency Commission**: Real estate broker fees are subject to the prevailing rate if the agency is GST-registered.
+* **GST Rate Lookup Table for Calculations**:
+    * Transactions finalized **on or before Dec 31, 2022**: **7%**
+    * Transactions finalized **Jan 1, 2023 – Dec 31, 2023**: **8%**
+    * Transactions finalized **on or after Jan 1, 2024 (Current Floor)**: **9%**
 
 ### 1.5 Property Tax Formula
 $$\text{Annual Property Tax} = \text{Annual Value (AV)} \times \text{Applicable Tax Rate Tier}$$
@@ -187,16 +181,61 @@ $$\text{Prorated Max CPF Usage} = \text{Valuation Limit} \times \left( \frac{\te
 
 ---
 
-## 📜 SECTION 4: TIME WINDOWS AND PROPERTY LIFECYCLES
+## 🏗️ SECTION 4: PRIVATE DEVELOPER LICENSING & BUILDING REGIME (HDCLA)
 
-### 4.1 HDB Minimum Occupation Period (MOP)
+### 4.1 Statutory Trigger Threshold
+Under the *Housing Developers (Control and Licensing) Act (HDCLA)*, any entity or individual engaged in developing a building project comprising **more than 4 units** of residential housing accommodation intended for sale must be a **Licensed Housing Developer**. 
+* Any residential project containing **4 units or fewer** is exempt from the licensing act framework.
+
+### 4.2 Types of Developer Licenses
+The Controller of Housing issues two functional classifications of developer licenses based on capitalization, project layout approvals, and track records:
+
+#### 1. No-Sale License
+* **Condition**: The developer is legally permitted to construct the residential building project but is **strictly prohibited from selling any units** upfront. They cannot grant an Option to Purchase (OTP) or enter into any Sale & Purchase (S&P) agreement.
+* **Financial Requirements**: The developer must maintain a minimum paid-up capital of **$100,000** (if a company) or lodge a cash deposit/security of **$100,000** with the Controller.
+
+#### 2. Sale License
+* **Condition**: Legally authorizes the developer to market, advertise, issue OTPs, and sell units **prior to completion (off-plan selling)**. Units cannot be marketed until structural building plans are officially approved by the Commissioner of Building Control.
+* **Financial Requirements**: The developer must commit significantly higher capital. For companies, a minimum paid-up capital or security deposit must be arranged progressively based on total unit output sizing:
+
+| Size of Project (Total Units to Build) | Minimum Paid-up Capital / Security Deposit |
+| :--- | :--- |
+| **1 to 10 Units** | $1,000,000 |
+| **11 to 50 Units** | $1,000,000 |
+| **51 to 100 Units** | $2,000,000 |
+| **101 to 200 Units** | $3,000,000 |
+| **201 to 400 Units** | $4,000,000 |
+| **More than 400 Units** | $4,000,000 |
+
+#### 📋 Strict Track Record Constraints (Sale License Entry Barriers)
+Aspiring developers cannot rely on commercial or non-residential histories to sell residential property off-plan. 
+* To qualify for a **Sale License**, the developer must cite a completed residential project in their corporate track record.
+* **Sizing Tier Limits**: If the developer's completed historical track record project contains **fewer than 10 units**, they are legally limited and can only get a license to construct a new project capped at **fewer than 50 units**.
+* **Accountability Clause**: At least one director from the original completed project team cited in the history must remain active on the board of directors of the company applying for the new license.
+
+### 4.3 Mandatory Project Account Ring-Fencing
+Every licensed developer holding a **Sale License** must open a single, specialized **Project Account** with an authorized bank for each individual building project.
+* **Mandatory Inflows**: All installment payments, booking fees, option fees received from buyers prior to and up to the point of Temporary Occupation Permit (TOP) issuance, along with any external construction bank loans, **must be deposited directly into the Project Account**.
+* **Permitted Outflows**: Funds can only be withdrawn for expenses directly linked to that specific project (e.g., construction materials, legal costs, architects, and surveyor service clearances). Money cannot be shifted out to support alternative developments or general business activities.
+
+### 4.4 Show Unit & Physical Scale Rules
+Governed strictly by the *Housing Developers (Show Unit) Rules*:
+* **Exact Replication Requirement**: Any show unit erected for buyer evaluation must be built **exactly in accordance with the approved building plan** submitted to the Commissioner of Building Control.
+* **Structural Elements**: Interior floor spaces, balconies, bay windows, utility ledges, planter boxes, and private enclosed spaces (PES) must mirror the exact dimensions and scale specified in the contract plan.
+* **Communal Models**: Property models displayed in sales galleries must clearly show all communal facilities (e.g., substations, trash bin centers, guardhouses, clubhouses, and maintenance areas) to ensure absolute transparency for prospective buyers.
+
+---
+
+## 📜 SECTION 5: TIME WINDOWS AND PROPERTY LIFECYCLES
+
+### 5.1 HDB Minimum Occupation Period (MOP)
 *Calculated strictly from the physical date of key collection, excluding any periods of unauthorized subletting or non-occupation.*
 
 * **Standard BTO / Resale Flats**: **5 Years**
 * **Prime Location Housing (PLH) / Plus Model Flats**: **10 Years**
 * **Fresh Start Housing Scheme**: **20 Years**
 
-### 4.2 Property Developer Transaction Lifecycles (Private Uncompleted Project)
+### 5.2 Property Developer Transaction Lifecycles (Private Uncompleted Project)
 *Governed by the Housing Developers (Control & Licensing) Act (HDCLA).*
 
 * **Booking Fee**: **5% to 10% cash** required to issue Option to Purchase (OTP).
@@ -207,63 +246,24 @@ $$\text{Prorated Max CPF Usage} = \text{Valuation Limit} \times \left( \frac{\te
 
 ---
 
-## 📢 SECTION 5: ADVERTISEMENT RULES & DATA PRIVACY LOOKUPS
+## 📢 SECTION 6: ADVERTISEMENT RULES & DATA PRIVACY LOOKUPS
 
-### 5.1 CEA Practice Guidelines on Ethical Advertising
+### 6.1 CEA Practice Guidelines on Ethical Advertising
 * **Mandatory Inclusion Codes**: Every advertisement must feature:
     1. Registered Name of the Estate Agent (Agency) and License Number.
     2. Registered Name of the Salesperson and Registration Number.
     3. Valid contact number registered with the agency.
 * **Banned Practices**: No anonymous "blind ads"; no unsubstantiated claims of being "Number 1" or "Top Producer" without independent proof; no discriminatory content.
 
-### 5.2 Outdoor Advertisements & Banners Licensing
+### 6.2 Outdoor Advertisements & Banners Licensing
 * **BCA Licensing**: External building banners require an Outdoor Advertisement License under the *Building Control (Outdoor Advertising) Regulations*.
 * **Clearances**: Directional signs or lamp-post banners require prior structural/space clearance from the LTA or SLA before submitting to BCA.
 
-### 5.3 Personal Data Protection Act (PDPA) & DNC Compliance
+### 6.3 Personal Data Protection Act (PDPA) & DNC Compliance
 * **DNC Registry Lookup**: Salespersons must check Voice, SMS, and Fax registries before running cold campaigns.
 * **Validity Window**: A DNC lookup scan remains valid for a maximum of **21 Days** from the search date.
 * **Consent**: Explicit written consent is mandatory before collecting or sharing sensitive identity data (like NRIC or passports) during transactional onboarding.
 
 ---
 
-## 🏢 SECTION 6: PROPERTY TYPES, REQUISITE RATIOS, AND SPACE CLASSIFICATIONS
-
-### 6.1 URA Master Plan Planning Metrics
-$$\text{Gross Floor Area (GFA) Allowance} = \text{Total Site Land Area} \times \text{Plot Ratio}$$
-
-### 6.2 Industrial Property Classifications
-* **Business 1 (B1)**: Clean and light industrial use; must not generate environmental nuisance beyond the property boundaries.
-* **Business 2 (B2)**: General and heavy industrial use.
-* **The 60:40 Core Industrial Rule**:
-    * At least **60%** of total Gross Floor Area (GFA) must be dedicated to core industrial activities (e.g., manufacturing, warehouse storage).
-    * A maximum of **40%** of the GFA can be used for ancillary purposes (e.g., offices, showrooms).
-
-### 6.3 Private Property En Bloc Consent Tiers
-*Governed by the Land Titles (Strata) Act (LTSA).*
-
-* **Age of Building < 10 Years**: Requires minimum **90%** consent from owners by both total share value and strata floor area.
-* **Age of Building $\ge$ 10 Years**: Requires minimum **80%** consent from owners by both total share value and strata floor area.
-* **Age Calculation**: Calculated starting from the issuance date of the first **Temporary Occupation Permit (TOP)**.
-
-### 6.4 Private Leasing Occupancy Cap
-* **Private Residential Properties**: Total number of unrelated occupants allowed in a single private residential unit is capped at **6 individuals**. *(Note: The temporary relaxation to 8 individuals for larger spaces expires on December 31, 2028).*
-
----
-
-## 🚫 SECTION 7: PROHIBITED OFFENCES & STATUTORY PENALTIES
-
-### 7.1 Estate Agents Act (EAA) 2010 Core Offences
-
-#### 1. Unlicensed Estate Agency Work / Fake Practitioners (S28 / S29)
-* **Penalty**: Fine up to **$25,000**, imprisonment for up to **12 months**, or both.
-
-#### 2. Ban on Dual Representation (Regulation 5(3))
-* **Rule**: Prohibited from representing both buyer and seller, or landlord and tenant, in the same transaction.
-* **Penalty**: Fine up to **$25,000**, imprisonment for up to **12 months**, or both.
-
-#### 3. Prohibited Cash Transaction Monies Handling
-* **Rule**: Salespersons are strictly barred from handling cash transaction monies (e.g., option fees, rentals, security deposits) for any residential transaction.
-
-#### 4. Moneylender Referrals Prohibition
-* **Rule**: Salespersons must not refer clients to licensed or unlicensed moneylenders, or receive incentives from them. Penalty includes immediate registration revocation.
+## 🏢 SECTION 7: PROPERTY TYPES, REQUISITE RATIOS
