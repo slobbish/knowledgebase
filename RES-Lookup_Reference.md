@@ -8,9 +8,9 @@ Use this timeline to program prompt lookups for scenario questions that explicit
 
 * **Prior to Dec 16, 2021**: Max HDB loan LTV was **90%**.
 * **Dec 16, 2021**: HDB Loan LTV cut to **85%**. ABSD Round 1 implemented (SC 2nd property: 17%, Foreigner: 30%).
-* **Jan 1, 2023**: Prevailing GST rate increased from 7% to **8%** (Applies to taxable commercial/industrial transactions and agency commissions).
 * **May 9, 2022**: Transfers of residential property into a Living Trust subjected to upfront **Entity ABSD rate**.
 * **Sep 30, 2022**: HDB Loan LTV cut to **80%**. Introduced a **15-month wait-out period** for private property owners buying non-subsidized HDB resale flats.
+* **Jan 1, 2023**: Prevailing GST rate increased from 7% to **8%** (Applies to taxable commercial/industrial transactions and agency commissions).
 * **Feb 15, 2023**: BSD Top Marginal Tier raised to **6%** (Residential portions >$15M) and **5%** (Non-Residential portions >$3M).
 * **Apr 27, 2023**: Current ABSD Rates implemented (SC 2nd property: 20%, Foreigner: 60%, Entities/Trusts: 65%).
 * **Jan 1, 2024**: Prevailing GST rate increased from 8% to **9%** (Current structural ceiling for all commercial/industrial and agency commissions).
@@ -126,6 +126,10 @@ $$\text{IWA} = \frac{(\text{Age}_A \times \text{Income}_A) + (\text{Age}_B \time
 ### 2.4 HDB Concessionary Housing Loans
 * **LTV Cap**: Up to **75%** of property valuation or transaction price (whichever is lower). *Effective from August 20, 2024.*
 * **Interest Rate**: Pegged at **+0.1%** above the prevailing CPF Ordinary Account (OA) interest rate.
+* **HDB Loan Core Income Ceiling**:
+    * Families / Couples: **$14,000** average gross monthly household income.
+    * Extended Families: **$21,000** average gross monthly household income.
+    * Singles (Buying 2-room Flexi resale/BTO under Single Citizen Scheme): **$7,000** gross monthly income.
 * Requires a valid **HDB Loan Eligibility (HLE)** letter prior to granting or executing an Option to Purchase (OTP).
 
 ---
@@ -141,9 +145,18 @@ $$\text{IWA} = \frac{(\text{Age}_A \times \text{Income}_A) + (\text{Age}_B \time
 $$\text{Prorated Max CPF Usage} = \text{Valuation Limit} \times \left( \frac{\text{Remaining Lease at Purchase} - 30}{\text{Lease Required to Reach Age 95} - 30} \right)$$
 * **Lease Lower Limit**: If a property has a remaining lease of **less than 30 years**, **0%** CPF OA funds can be used.
 
-### 3.2 HDB CPF Housing Grants Eligibility & Caps Lookup (Current Floor)
+### 3.2 HDB Property Purchase Income Ceilings (Direct-from-HDB / Developer)
+*The maximum gross monthly household income allowed at the time of application/booking:*
+
+* **New BTO 3-Room Flat**: **$7,000** or **$14,000** (Depending on the specific project model/concessions).
+* **New BTO 4-Room or Larger Flat**: **$14,000** (Families) | **$7,000** (Singles buying 2-room Flexi).
+* **Executive Condominiums (ECs) from Developer**: **$16,000** gross monthly household income.
+* **HDB Resale Flats (Open Market)**: **No Income Ceiling** to buy, *unless* the buyer is applying for HDB Concessionary Loans or HDB CPF Housing Grants.
+
+### 3.3 HDB CPF Housing Grants Eligibility & Caps Lookup (Current Floor)
 
 #### 1. CPF First-Timer Applicant Matrix (Resale Flats)
+* **Income Ceiling**: **$14,000** (Families) | **$7,000** (Singles).
 * **Citizen Family (SC/SC or SC/SPR)**: 
     * 2 to 4-room flats: **$80,000**
     * 5-room or larger flats: **$50,000**
@@ -152,22 +165,23 @@ $$\text{Prorated Max CPF Usage} = \text{Valuation Limit} \times \left( \frac{\te
     * 5-room flats: **$25,000**
 
 #### 2. Enhanced CPF Housing Grant (EHG)
-* **Income Limit**: Average gross monthly household income must not exceed **$9,000** (Families) or **$4,500** (Singles) over a 12-month period.
+* **Strict Income Ceiling**: Average gross monthly household income must not exceed **$9,000** (Families) or **$4,500** (Singles) over a 12-month evaluation period.
 * **Quantum Brackets (Effective Aug 20, 2024)**: 
-    * Families: Staggered from **$5,000 to $120,000** (Inversely proportional to income).
+    * Families: Staggered from **$5,000 to $120,000** (Inversely proportional to household income; maximum grant tier requires household income $\le$ $1,500$).
     * Singles: Staggered from **$2,500 to $60,000**.
 
 #### 3. Proximity Housing Grant (PHG)
-* **Criteria**: Living within a **4 km** radius of parents/children, or moving in to reside together. No income ceiling.
+* **Income Ceiling**: **No Income Ceiling** restrictions apply.
+* **Criteria**: Living within a **4 km** radius of parents/children, or moving in to reside together.
 * **Quantum Brackets**:
     * Families (Living Near): **$20,000** | Families (Living Together): **$30,000**
     * Singles (Living Near): **$10,000** | Singles (Living Together): **$15,000**
 
 #### 4. Foreign Spouse / Citizen Top-Up Rules
-* **SC/Foreigner Couple**: Eligible for the **Single Singapore Citizen Scheme** equivalent grants. 
-* **Citizen Top-Up**: If the foreign spouse subsequently obtains Singapore Citizenship or SPR status, or if the couple has an SC child, they can apply for a **$10,000 Citizen Top-Up Grant** from HDB.
+* **SC/Foreigner Couple**: Eligible for the **Single Singapore Citizen Scheme** equivalent grants (Subject to Singles income ceilings: $7,000 for standard resale grant / $4,500 for EHG). 
+* **Citizen Top-Up**: If the foreign spouse subsequently obtains Singapore Citizenship or SPR status, or if the couple has an SC child, they can apply for a **$10,000 Citizen Top-Up Grant** from HDB (No income ceiling for top-up application).
 
-### 3.3 HDB Resale Levy Framework
+### 3.4 HDB Resale Levy Framework
 *Payable when an HDB flat owner sells their first subsidized flat and buys a second subsidized flat from HDB or an EC from a developer.*
 
 | Flat Type of 1st Subsidized Property | Fixed Resale Levy Quantum |
@@ -266,4 +280,43 @@ Governed strictly by the *Housing Developers (Show Unit) Rules*:
 
 ---
 
-## 🏢 SECTION 7: PROPERTY TYPES, REQUISITE RATIOS
+## 🏢 SECTION 7: PROPERTY TYPES, REQUISITE RATIOS, AND SPACE CLASSIFICATIONS
+
+### 7.1 URA Master Plan Planning Metrics
+$$\text{Gross Floor Area (GFA) Allowance} = \text{Total Site Land Area} \times \text{Plot Ratio}$$
+
+### 7.2 Industrial Property Classifications
+* **Business 1 (B1)**: Clean and light industrial use; must not generate environmental nuisance beyond the property boundaries.
+* **Business 2 (B2)**: General and heavy industrial use.
+* **The 60:40 Core Industrial Rule**:
+    * At least **60%** of total Gross Floor Area (GFA) must be dedicated to core industrial activities (e.g., manufacturing, warehouse storage).
+    * A maximum of **40%** of the GFA can be used for ancillary purposes (e.g., offices, showrooms).
+
+### 7.3 Private Property En Bloc Consent Tiers
+*Governed by the Land Titles (Strata) Act (LTSA).*
+
+* **Age of Building < 10 Years**: Requires minimum **90%** consent from owners by both total share value and total strata floor area.
+* **Age of Building $\ge$ 10 Years**: Requires minimum **80%** consent from owners by both total share value and total strata floor area.
+* **Age Calculation**: Calculated starting from the issuance date of the first **Temporary Occupation Permit (TOP)**.
+
+### 7.4 Private Leasing Occupancy Cap
+* **Private Residential Properties**: Total number of unrelated occupants allowed in a single private residential unit is capped at **6 individuals**. *(Note: The temporary relaxation to 8 individuals for larger spaces expires on December 31, 2028).*
+
+---
+
+## 🚫 SECTION 8: PROHIBITED OFFENCES & STATUTORY PENALTIES
+
+### 8.1 Estate Agents Act (EAA) 2010 Core Offences
+
+#### 1. Unlicensed Estate Agency Work / Fake Practitioners (S28 / S29)
+* **Penalty**: Fine up to **$25,000**, imprisonment for up to **12 months**, or both.
+
+#### 2. Ban on Dual Representation (Regulation 5(3))
+* **Rule**: Prohibited from representing both buyer and seller, or landlord and tenant, in the same transaction.
+* **Penalty**: Fine up to **$25,000**, imprisonment for up to **12 months**, or both.
+
+#### 3. Prohibited Cash Transaction Monies Handling
+* **Rule**: Salespersons are strictly barred from handling cash transaction monies (e.g., option fees, rentals, security deposits) for any residential transaction.
+
+#### 4. Moneylender Referrals Prohibition
+* **Rule**: Salespersons must not refer clients to licensed or unlicensed moneylenders, or receive incentives from them. Penalty includes immediate registration revocation.
