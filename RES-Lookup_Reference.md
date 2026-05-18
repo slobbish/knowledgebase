@@ -1,322 +1,309 @@
-# 🗂️ RES COMPREHENSIVE LOOKUP LIBRARY
+# 🗂️ RES COMPREHENSIVE ORACLE KNOWLEDGE LIBRARY (ALL-IN-ONE)
 
 ---
 
-## 📅 STATUTORY EFFECTIVE DATES TIMELINE
+## 📅 TIMELINE OF STATUTORY CHANGES & EFFECTIVE DATES
+*When parsing scenario questions, first check the transaction/OTP execution date against this timeline to anchor which historical baseline or cooling measure applies.*
 
-Use this timeline to program prompt lookups for scenario questions that explicitly mention dates:
-
-* **Prior to Dec 16, 2021**: Max HDB loan LTV was **90%**.
-* **Dec 16, 2021**: HDB Loan LTV cut to **85%**. ABSD Round 1 implemented (SC 2nd property: 17%, Foreigner: 30%).
-* **May 9, 2022**: Transfers of residential property into a Living Trust subjected to upfront **Entity ABSD rate**.
-* **Sep 30, 2022**: HDB Loan LTV cut to **80%**. Introduced a **15-month wait-out period** for private property owners buying non-subsidized HDB resale flats.
-* **Jan 1, 2023**: Prevailing GST rate increased from 7% to **8%** (Applies to taxable commercial/industrial transactions and agency commissions).
-* **Feb 15, 2023**: BSD Top Marginal Tier raised to **6%** (Residential portions >$15M) and **5%** (Non-Residential portions >$3M).
-* **Apr 27, 2023**: Current ABSD Rates implemented (SC 2nd property: 20%, Foreigner: 60%, Entities/Trusts: 65%).
-* **Jan 1, 2024**: Prevailing GST rate increased from 8% to **9%** (Current structural ceiling for all commercial/industrial and agency commissions).
-* **Aug 20, 2024**: HDB Loan LTV cut to **75%**. Enhanced CPF Housing Grant (EHG) significantly increased (Max family grant raised to $120,000).
-* **Jan 16, 2026**: Temporary rental occupancy cap relaxation (max 8 unrelated occupants for larger units) officially extended by HDB/URA to **Dec 31, 2028**.
+* **Prior to December 16, 2021**
+    * **HDB Concessionary Loan Maximum LTV**: **90%**
+    * **ABSD Rates Baseline (SC / SPR / FR)**: 1st Property: SC 0%, SPR 5%, FR 20% | 2nd Property: SC 12%, SPR 15%, FR 20% | 3rd+ Property: SC 15%, SPR 15%, FR 20%.
+* **December 16, 2021 (Cooling Measures Round 1)**
+    * **HDB Concessionary Loan Maximum LTV**: Reduced from 90% to **85%**.
+    * **ABSD Round 1 Framework**: SC 2nd property raised to **17%**; SPR 2nd property raised to **25%**; Foreigner flat rate raised to **30%**. Entities/Trusts raised to **35%**.
+    * **TDSR Ceiling**: Tightened from 60% down to **55%** maximum.
+* **May 9, 2022 (Trust Loophole Closure)**
+    * **Living Trust ABSD**: Any transfer of residential property into a Living Trust is subjected to an upfront **Entity ABSD rate** (then 35%), even if there is no identifiable beneficial owner at the time of trust creation.
+* **September 30, 2022 (Cooling Measures Round 2)**
+    * **HDB Concessionary Loan Maximum LTV**: Reduced from 85% to **80%**.
+    * **Stress-Test Interest Rates**: Implemented a **3.5% p.a.** floor rate for residential property bank loans and **3.0% p.a.** for HDB concessionary loans to compute TDSR/MSR.
+    * **Private Property Owner (PPO) 15-Month Wait-Out Rule**: Current or former PPOs must wait out **15 months** after selling their private property before buying a non-subsidized HDB resale flat. *Exception*: Seniors aged **55 and above** downsizing to a 4-room or smaller resale flat are exempt.
+* **January 1, 2023 (GST Stage 1)**
+    * **GST Rate**: Increased from 7% to **8%** (Applies to commercial/industrial sales, leases, and real estate agency commissions).
+* **February 15, 2023 (Budget 2023 BSD Adjustments & Resale Grant Jump)**
+    * **Buyer’s Stamp Duty (BSD)**: Top marginal tiers added. Residential portion value exceeding $15M taxed at **6%**. Non-residential portion value exceeding $3M taxed at **5%**.
+    * **Core Resale Family Grant**: Substantially increased from $50,000 up to **$80,000** for 2-to-4 room resale flats.
+* **April 27, 2023 (Cooling Measures Round 3 - Current Standing Framework)**
+    * **ABSD Adjustments**: SC 2nd property raised to **20%**; SC 3rd+ raised to **30%**. SPR 2nd property raised to **30%**; SPR 3rd+ raised to **35%**. Foreigner rate doubled to **60%**. Entities and Living Trusts raised to **65%**.
+* **January 1, 2024 (GST Stage 2 - Current Standing)**
+    * **GST Rate**: Increased from 8% to **9%**.
+* **August 20, 2024 (Cooling Measures Round 4 & EHG Grant Upgrades)**
+    * **HDB Concessionary Loan Maximum LTV**: Reduced from 80% to **75%**. Applies to all resale flat applications received on or after August 20, 2024, and BTO launches from October 2024 onwards.
+    * **Enhanced CPF Housing Grant (EHG) Uplift**: The maximum baseline quantum for first-timer families increased from $80,000 to **$120,000**. Max quantum for singles increased from $40,000 to **$60,000**.
+* **October 2024 Sales Launch Onwards (New HDB Framework)**
+    * **Flat Classification**: Introduction of **Standard, Plus, and Prime** categorization for BTO flats replacing Mature/Non-Mature designations. Plus and Prime carry a **10-year MOP** and **Subsidy Recovery** clauses upon resale.
 
 ---
 
-## 🏛️ SECTION 1: STATUTORY COOLING MEASURES & TAXATION CODES
+## 💰 SECTION 1: STAMP DUTIES FRAMEWORK & MATRIMONIAL REMISSIONS
 
-### 1.1 Buyer’s Stamp Duty (BSD) Rates
-*Applicable to all property acquisitions based on the higher of Purchase Price or Market Value. Effective for properties acquired on or after February 15, 2023.*
+### 1.1 Buyer’s Stamp Duty (BSD) Progressive Rate Matrix
+*Calculated progressively on the purchase price or market valuation, whichever is HIGHER.*
 
-#### Residential Properties
-* First $180,000: **1%**
-* Next $180,000 (>$180k to $360k): **2%**
-* Next $640,000 (>$360k to $1M): **3%**
-* Next $2,000,000 (>$1M to $3M): **4%**
-* Next $12,000,000 (>$3M to $15M): **5%**
-* Above $15,000,000: **6%**
+| Property Value Bracket | Residential Tiers (Post-Feb 15, 2023) | Non-Residential Tiers (Post-Feb 15, 2023) |
+| :--- | :--- | :--- |
+| First $180,000 | 1% | 1% |
+| Next $180,000 | 2% | 2% |
+| Next $640,000 | 3% | 3% |
+| Next $500,000 | 4% | 4% |
+| Next $1,500,000 | 5% | 5% (All values above $3M capped at 5%) |
+| Next $12,000,000 | 5% | 5% |
+| Value Above $15,000,000 | 6% | 5% |
 
-#### Non-Residential Properties (Commercial / Industrial)
-* First $180,000: **1%**
-* Next $180,000: **2%**
-* Next $640,000: **3%**
-* Next $2,000,000: **4%**
-* Above $3,000,000: **5%**
+### 1.2 Additional Buyer’s Stamp Duty (ABSD) Rate Matrix (Post-Apr 27, 2023)
+*Determined strictly by the buyer’s citizenship status and total count of residential properties owned globally at the exact point of contract execution.*
 
-### 1.2 Additional Buyer’s Stamp Duty (ABSD) Matrix
-*Calculated on the higher of Purchase Price or Market Value. Effective from April 27, 2023 onwards.*
-
-| Buyer Profile / Entity | 1st Property | 2nd Property | 3rd & Subsequent |
+| Buyer Profile | 1st Residential Property | 2nd Residential Property | 3rd & Subsequent Residential Properties |
 | :--- | :--- | :--- | :--- |
 | **Singapore Citizen (SC)** | 0% | 20% | 30% |
-| **Singapore Permanent Resident (SPR)** | 5% | 30% | 35% |
-| **Foreigners (FR)** | 60% | 60% | 60% |
-| **Entities / Corporate Buyers** | 65% | 65% | 65% |
-| **Housing Developers (Remittable)** | 35% *(+5% upfront non-remittable)* | N/A | N/A |
-| **Trustees (Buying on behalf of a trust)** | 65% *(Upfront, dynamically refundable if beneficiary is an identifiable SC/SPR)* |
+| **Permanent Resident (SPR)** | 5% | 30% | 35% |
+| **Foreigner (FR)** | 60% | 60% | 60% |
+| **Entities / Living Trusts** | 65% | 65% | 65% |
+| **Housing Developers** | 35% + 5% non-remittable upfront | 35% + 5% non-remittable upfront | 35% + 5% non-remittable upfront |
 
-#### 🌐 FTA ABSD Exemptions
-Nationals and Permanent Residents of the following countries are accorded the **same tax treatment as Singapore Citizens (0% for 1st property)** under Free Trade Agreements:
-1. United States of America (Nationals)
-2. Iceland (Nationals & PRs)
-3. Liechtenstein (Nationals & PRs)
-4. Norway (Nationals & PRs)
-5. Switzerland (Nationals & PRs)
+#### 🔑 CRITICAL ABSD QUALIFIERS, EXEMPTIONS & LIQUIDITY TRAPS
+1.  **First Joint Home Remission**: A married couple consisting of at least one SC spouse can get full ABSD remission on their **first** residential property if the property is purchased jointly under both spouses' names *only* and neither spouse owns any other residential property globally.
+2.  **Second Joint Home Refund (Matrimonial Remission)**: A married couple (containing at least one SC spouse) who purchases a 2nd joint residential property under both names can claim a **100% refund of the upfront ABSD paid** if they do *not* acquire any 3rd property before the disposal of the 1st property, and the 1st property is fully sold within **6 months** from:
+    * The Date of Purchase (OTP Exercise Date) of the 2nd property if it is a **completed/resale property**.
+    * The Temporary Occupation Permit (TOP) or Certificate of Statutory Completion (CSC) issuance date (whichever is earlier) of the 2nd property if it was **uncompleted (BUC)** at the time of purchase.
+3.  **The Joint-Buyer "Highest Rate" Rule**: If a property is purchased jointly by multiple buyers of different profiles, **the highest applicable ABSD rate among all the buyers will be levied on the entire purchase price**.
+4.  **Free Trade Agreement (FTA) National Treatment**: Nationals or Permanent Residents of **Iceland, Liechtenstein, Norway, Switzerland**, and Citizens of the **United States of America (USA)** are legally accorded the exact same ABSD treatment as a Singapore Citizen (0% for 1st property).
 
-### 1.3 Seller’s Stamp Duty (SSD) Holding Matrix
-*Triggered on the date of disposal/sale based on the original acquisition date.*
+### 1.3 Seller’s Stamp Duty (SSD) For Residential Properties
+*Applies to properties acquired on or after March 11, 2017. Computed from the exact Date of Acquisition to the exact Date of Disposal (Option Exercise Date).*
 
-#### Residential Property SSD (Acquired on/after Mar 11, 2017)
-* Sold within **1 Year** of acquisition: **12%** of sale value
-* Sold **> 1 Year up to 2 Years**: **8%** of sale value
-* Sold **> 2 Years up to 3 Years**: **4%** of sale value
-* Sold **> 3 Years**: **0%** (No SSD)
-
-#### Industrial Property SSD (Acquired on/after Jan 12, 2013)
-* Sold within **1 Year** of acquisition: **15%** of sale value
-* Sold **> 1 Year up to 2 Years**: **10%** of sale value
-* Sold **> 2 Years up to 3 Years**: **5%** of sale value
-* Sold **> 3 Years**: **0%**
-
-### 1.4 Goods and Services Tax (GST) Treatment & Historical Rates
-* **Residential Properties**: Strictly **Exempt** from GST (Applies to sale, lease, and maintenance).
-* **Commercial & Industrial Properties**: Subject to prevailing GST on the full transaction or lease value if the vendor/landlord is a GST-registered entity.
-* **Agency Commission**: Real estate broker fees are subject to the prevailing rate if the agency is GST-registered.
-* **GST Rate Lookup Table for Calculations**:
-    * Transactions finalized **on or before Dec 31, 2022**: **7%**
-    * Transactions finalized **Jan 1, 2023 – Dec 31, 2023**: **8%**
-    * Transactions finalized **on or after Jan 1, 2024 (Current Floor)**: **9%**
-
-### 1.5 Property Tax Formula
-$$\text{Annual Property Tax} = \text{Annual Value (AV)} \times \text{Applicable Tax Rate Tier}$$
-* **Annual Value (AV)**: Estimated gross annual rent if the property were to be leased out, excluding furniture, furnishings, and maintenance fees.
-* **Tax Tiers**: Differentiated between **Owner-Occupier Rates** (Progressive, lower tiers) and **Non-Owner Occupier Rates** (Higher progressive brackets).
+* **Holding Period $\le$ 1 Year**: **12%** of market value or sale price (whichever is higher).
+* **Holding Period $> 1$ Year and $\le$ 2 Years**: **8%**.
+* **Holding Period $> 2$ Years and $\le$ 3 Years**: **4%**.
+* **Holding Period $> 3$ Years**: **0%** (No SSD payable).
 
 ---
 
-## 🏦 SECTION 2: MAS MACROPRUDENTIAL & MONETARY REGULATIONS
+## 🏢 SECTION 2: HDB INCOME CEILINGS & PROPERTY ELIGIBILITY FRAMEWORK
 
-### 2.1 Loan-to-Value (LTV) Limits (Residential Bank Loans)
-*Applies to private financial institution residential mortgages regulated by MAS.*
+### 2.1 Core Household Gross Monthly Income Ceilings (Purchase Eligibility)
+*Assessed strictly based on the average gross monthly income over a 12-month period preceding the HDB Flat Eligibility (HFE) letter application.*
 
-#### Individual Borrowers
-* **1st Outstanding Housing Loan**: 
-    * **75%** (If loan tenure $\le$ 30 years, or up to age 65)
-    * **55%** (If loan tenure > 30 years, or extends past age 65)
-    * *Minimum Cash Downpayment for 75% LTV*: **5%** in cash; remaining 20% from CPF OA or cash.
-    * *Minimum Cash Downpayment for 55% LTV*: **10%** in cash.
-* **2nd Outstanding Housing Loan**: 
-    * **45%** (Tenure $\le$ 30 years / age $\le$ 65)
-    * **25%** (Tenure > 30 years / age > 65)
-    * *Minimum Cash Downpayment*: **25%** in cash.
-* **3rd & Subsequent Outstanding Loan**: 
-    * **35%** (Tenure $\le$ 30 years / age $\le$ 65)
-    * **15%** (Tenure > 30 years / age > 65)
-    * *Minimum Cash Downpayment*: **25%** in cash.
-
-#### Non-Individual (Corporate/Entity) Borrowers
-* Max **15%** LTV.
-
-### 2.2 Total Debt Servicing Ratio (TDSR)
-* Total monthly debt obligations (Mortgages + Car Loans + Personal Loans + Credit Card Minimums) must not exceed **55%** of the borrower’s gross monthly income.
-* **Variable Income Haircut**: Commission, bonuses, and rental income are subject to a mandatory statutory **30% haircut** (only 70% counts toward income qualifications).
-* **Income-Weighted Age (IWA)** formula for multiple borrowers:
-$$\text{IWA} = \frac{(\text{Age}_A \times \text{Income}_A) + (\text{Age}_B \times \text{Income}_B)}{\text{Income}_A + \text{Income}_B}$$
-
-### 2.3 Mortgage Servicing Ratio (MSR)
-* Monthly mortgage repayment capped at **30%** of gross monthly income.
-* **Scope**: Restructured strictly to purchases of **HDB Resale Flats, New HDB Flats, and Executive Condominiums (ECs)** from developers.
-
-### 2.4 HDB Concessionary Housing Loans
-* **LTV Cap**: Up to **75%** of property valuation or transaction price (whichever is lower). *Effective from August 20, 2024.*
-* **Interest Rate**: Pegged at **+0.1%** above the prevailing CPF Ordinary Account (OA) interest rate.
-* **HDB Loan Core Income Ceiling**:
-    * Families / Couples: **$14,000** average gross monthly household income.
-    * Extended Families: **$21,000** average gross monthly household income.
-    * Singles (Buying 2-room Flexi resale/BTO under Single Citizen Scheme): **$7,000** gross monthly income.
-* Requires a valid **HDB Loan Eligibility (HLE)** letter prior to granting or executing an Option to Purchase (OTP).
+| Flat Type / Property Framework | Family / Couple Household Limit | Single Citizen Limit (Aged $\ge$ 35) |
+| :--- | :--- | :--- |
+| **2-room Flexi BTO (Standard / Plus / Prime)** | $14,000 | **$7,000** |
+| **3-room BTO / New Flat** | $7,000 or $14,000 (Project dependent) | Banned from buying larger BTOs as a Single |
+| **4-room & Larger BTO / New Flat** | $14,000 | Banned from buying larger BTOs as a Single |
+| **HDB Resale Flat (Standard / Plus / Unclassified)** | **No Income Ceiling** (Uncapped) | **No Income Ceiling** (Uncapped) |
+| **HDB Resale Flat (2-room Flexi Prime / PLH)** | $14,000 | **$7,000** |
+| **Executive Condominium (EC) New Launch** | $16,000 | Banned from buying new ECs as a Single |
 
 ---
 
-## 💰 SECTION 3: CPF HOUSING USAGE AND GRANT LOOKUP TABLES
+## 💰 SECTION 3: CPF HOUSING SUBSIDIES & GOVERNMENT GRANTS MATRIX
 
-### 3.1 CPF Ordinary Account (OA) Property Usage Parameters
-* **Valuation Limit (VL)**: The lower of the purchase price or the market valuation at the time of acquisition.
-* **Withdrawal Limit (WL)**: The absolute maximum ceiling of CPF funds allowed for the property, capped at **120% of the Valuation Limit (VL)**.
-* **Remaining Lease Protection Rules (Age 95 Rule)**:
-    * Full CPF usage is allowed only if the property's remaining lease covers the youngest buyer to at least **age 95**.
-    * If the lease does not cover the youngest buyer to age 95 (and is between 30 and 60 years), CPF usage is prorated:
-$$\text{Prorated Max CPF Usage} = \text{Valuation Limit} \times \left( \frac{\text{Remaining Lease at Purchase} - 30}{\text{Lease Required to Reach Age 95} - 30} \right)$$
-* **Lease Lower Limit**: If a property has a remaining lease of **less than 30 years**, **0%** CPF OA funds can be used.
+*All housing grants are credited exclusively directly into the eligible applicant's CPF Ordinary Account (OA) as housing capital top-ups. They can never be drawn down as liquid physical cash.*
 
-### 3.2 HDB Property Purchase Income Ceilings (Direct-from-HDB / Developer)
-*The maximum gross monthly household income allowed at the time of application/booking:*
+### 3.1 CPF Housing Grant for Resale Flats (Core Resale Grant)
+*Available strictly to eligible **First-Timer** buyers purchasing a resale flat on the open market. This grant does NOT apply to BTO/New flat purchases.*
+* **Income Ceiling Qualifier**: Combined gross monthly household income must be **$\le$ $14,000** for families, or **$\le$ $7,000** for an individual single citizen.
 
-* **New BTO 3-Room Flat**: **$7,000** or **$14,000** (Depending on the specific project model/concessions).
-* **New BTO 4-Room or Larger Flat**: **$14,000** (Families) | **$7,000** (Singles buying 2-room Flexi).
-* **Executive Condominiums (ECs) from Developer**: **$16,000** gross monthly household income.
-* **HDB Resale Flats (Open Market)**: **No Income Ceiling** to buy, *unless* the buyer is applying for HDB Concessionary Loans or HDB CPF Housing Grants.
+#### 📊 Family / Couple Grant Quantum Profile
+| Flat Type Size | SC / SC Household | SC / SPR Household |
+| :--- | :--- | :--- |
+| **2-room to 4-room Resale Flat** | **$80,000** | **$70,000** |
+| **5-room or Larger / 3Gen Flat** | **$50,000** | **$40,000** |
 
-### 3.3 HDB CPF Housing Grants Eligibility & Caps Lookup (Current Floor)
-
-#### 1. CPF First-Timer Applicant Matrix (Resale Flats)
-* **Income Ceiling**: **$14,000** (Families) | **$7,000** (Singles).
-* **Citizen Family (SC/SC or SC/SPR)**: 
-    * 2 to 4-room flats: **$80,000**
-    * 5-room or larger flats: **$50,000**
-* **Single Citizen (SC) Applicant (Age $\ge$ 35)**:
-    * 2 to 4-room flats: **$40,000**
-    * 5-room flats: **$25,000**
-
-#### 2. Enhanced CPF Housing Grant (EHG)
-* **Strict Income Ceiling**: Average gross monthly household income must not exceed **$9,000** (Families) or **$4,500** (Singles) over a 12-month evaluation period.
-* **Quantum Brackets (Effective Aug 20, 2024)**: 
-    * Families: Staggered from **$5,000 to $120,000** (Inversely proportional to household income; maximum grant tier requires household income $\le$ $1,500$).
-    * Singles: Staggered from **$2,500 to $60,000**.
-
-#### 3. Proximity Housing Grant (PHG)
-* **Income Ceiling**: **No Income Ceiling** restrictions apply.
-* **Criteria**: Living within a **4 km** radius of parents/children, or moving in to reside together.
-* **Quantum Brackets**:
-    * Families (Living Near): **$20,000** | Families (Living Together): **$30,000**
-    * Singles (Living Near): **$10,000** | Singles (Living Together): **$15,000**
-
-#### 4. Foreign Spouse / Citizen Top-Up Rules
-* **SC/Foreigner Couple**: Eligible for the **Single Singapore Citizen Scheme** equivalent grants (Subject to Singles income ceilings: $7,000 for standard resale grant / $4,500 for EHG). 
-* **Citizen Top-Up**: If the foreign spouse subsequently obtains Singapore Citizenship or SPR status, or if the couple has an SC child, they can apply for a **$10,000 Citizen Top-Up Grant** from HDB (No income ceiling for top-up application).
-
-### 3.4 HDB Resale Levy Framework
-*Payable when an HDB flat owner sells their first subsidized flat and buys a second subsidized flat from HDB or an EC from a developer.*
-
-| Flat Type of 1st Subsidized Property | Fixed Resale Levy Quantum |
-| :--- | :--- |
-| **2-Room Flat** | $15,000 |
-| **3-Room Flat** | $30,000 |
-| **4-Room Flat** | $40,000 |
-| **5-Room Flat** | $45,000 |
-| **Executive Flat** | $50,000 |
-| **Executive Condominium (EC)** | $55,000 |
+#### 📊 Single Citizen Grant Quantum Profile (Aged $\ge$ 35)
+| Flat Type Size | Single Citizen / Non-Citizen Spouse Scheme | Joint Singles Scheme (2-4 Singles Combined) |
+| :--- | :--- | :--- |
+| **2-room to 4-room Resale Flat** | **$40,000** | **$50,000** total pool |
+| **5-room or Larger Resale Flat** | **$25,000** | **$40,000** total pool |
 
 ---
 
-## 🏗️ SECTION 4: PRIVATE DEVELOPER LICENSING & BUILDING REGIME (HDCLA)
+### 3.2 Enhanced CPF Housing Grant (EHG) (Post-August 20, 2024 Upgrades)
+*Applies to **BOTH New BTO Flats and Resale Flats**. Structured progressively—lower income brackets systematically receive higher subsidy injections.*
+* **Employment Eligibility Condition**: At least one applicant must be **continuously employed for a minimum of 12 months** prior to the HFE letter application date, and must be actively working at the time of application.
+* **Lease Liquidity Qualifier**: The flat’s remaining lease **must cover the youngest core buyer/occupier to age 95**. If the lease falls short, the EHG quantum is strictly prorated downward.
+* **Income Ceilings**: Combined household gross income must be **$\le$ $9,000** for families, and **$\le$ $4,500** for individual singles.
 
-### 4.1 Statutory Trigger Threshold
-Under the *Housing Developers (Control and Licensing) Act (HDCLA)*, any entity or individual engaged in developing a building project comprising **more than 4 units** of residential housing accommodation intended for sale must be a **Licensed Housing Developer**. 
-* Any residential project containing **4 units or fewer** is exempt from the licensing act framework.
+#### 📊 Progressive EHG Income Bracket Schedule
+| Average Monthly Income (Family) | Family Grant | Average Monthly Income (Single) | Singles Grant |
+| :--- | :--- | :--- | :--- |
+| $\le$ $1,500 | $120,000 | **$\le$ $750** | **$60,000** |
+| $1,501 to $2,000 | $110,000 | **$751 to $1,000** | **$55,000** |
+| $2,001 to $2,500 | $105,000 | **$1,001 to $1,250** | **$52,500** |
+| $2,501 to $3,000 | $95,000 | **$1,251 to $1,500** | **$47,500** |
+| $3,001 to $3,500 | $90,000 | **$1,501 to $1,750** | **$45,000** |
+| $3,501 to $4,000 | $80,000 | **$1,751 to $2,000** | **$40,000** |
+| $4,001 to $4,500 | $70,000 | **$2,001 to $2,250** | **$35,000** |
+| $4,501 to $5,000 | $65,000 | **$2,251 to $2,500** | **$32,500** |
+| $5,001 to $5,500 | $55,000 | **$2,501 to $2,750** | **$27,500** |
+| $5,501 to $6,000 | $50,000 | **$2,751 to $3,000** | **$25,000** |
+| $6,001 to $6,500 | $40,000 | **$3,001 to $3,250** | **$20,000** |
+| $6,501 to $7,000 | $30,000 | **$3,251 to $3,500** | **$15,000** |
+| $7,001 to $7,500 | $25,000 | **$3,501 to $3,750** | **$12,500** |
+| $7,501 to $8,000 | $20,000 | **$3,751 to $4,000** | **$10,000** |
+| $8,001 to $8,500 | $10,000 | **$4,001 to $4,250** | **$5,000** |
+| $8,501 to $9,000 | $5,000 | **$4,251 to $4,500** | **$2,500** |
+| $>$ $9,000 | $0 | **$>$ $4,500** | **$0 (Ineligible)** |
 
-### 4.2 Types of Developer Licenses
-The Controller of Housing issues two functional classifications of developer licenses based on capitalization, project layout approvals, and track records:
-
-#### 1. No-Sale License
-* **Condition**: The developer is legally permitted to construct the residential building project but is **strictly prohibited from selling any units** upfront. They cannot grant an Option to Purchase (OTP) or enter into any Sale & Purchase (S&P) agreement.
-* **Financial Requirements**: The developer must maintain a minimum paid-up capital of **$100,000** (if a company) or lodge a cash deposit/security of **$100,000** with the Controller.
-
-#### 2. Sale License
-* **Condition**: Legally authorizes the developer to market, advertise, issue OTPs, and sell units **prior to completion (off-plan selling)**. Units cannot be marketed until structural building plans are officially approved by the Commissioner of Building Control.
-* **Financial Requirements**: The developer must commit significantly higher capital. For companies, a minimum paid-up capital or security deposit must be arranged progressively based on total unit output sizing:
-
-| Size of Project (Total Units to Build) | Minimum Paid-up Capital / Security Deposit |
-| :--- | :--- |
-| **1 to 10 Units** | $1,000,000 |
-| **11 to 50 Units** | $1,000,000 |
-| **51 to 100 Units** | $2,000,000 |
-| **101 to 200 Units** | $3,000,000 |
-| **201 to 400 Units** | $4,000,000 |
-| **More than 400 Units** | $4,000,000 |
-
-#### 📋 Strict Track Record Constraints (Sale License Entry Barriers)
-Aspiring developers cannot rely on commercial or non-residential histories to sell residential property off-plan. 
-* To qualify for a **Sale License**, the developer must cite a completed residential project in their corporate track record.
-* **Sizing Tier Limits**: If the developer's completed historical track record project contains **fewer than 10 units**, they are legally limited and can only get a license to construct a new project capped at **fewer than 50 units**.
-* **Accountability Clause**: At least one director from the original completed project team cited in the history must remain active on the board of directors of the company applying for the new license.
-
-### 4.3 Mandatory Project Account Ring-Fencing
-Every licensed developer holding a **Sale License** must open a single, specialized **Project Account** with an authorized bank for each individual building project.
-* **Mandatory Inflows**: All installment payments, booking fees, option fees received from buyers prior to and up to the point of Temporary Occupation Permit (TOP) issuance, along with any external construction bank loans, **must be deposited directly into the Project Account**.
-* **Permitted Outflows**: Funds can only be withdrawn for expenses directly linked to that specific project (e.g., construction materials, legal costs, architects, and surveyor service clearances). Money cannot be shifted out to support alternative developments or general business activities.
-
-### 4.4 Show Unit & Physical Scale Rules
-Governed strictly by the *Housing Developers (Show Unit) Rules*:
-* **Exact Replication Requirement**: Any show unit erected for buyer evaluation must be built **exactly in accordance with the approved building plan** submitted to the Commissioner of Building Control.
-* **Structural Elements**: Interior floor spaces, balconies, bay windows, utility ledges, planter boxes, and private enclosed spaces (PES) must mirror the exact dimensions and scale specified in the contract plan.
-* **Communal Models**: Property models displayed in sales galleries must clearly show all communal facilities (e.g., substations, trash bin centers, guardhouses, clubhouses, and maintenance areas) to ensure absolute transparency for prospective buyers.
+*Note: For a First-Timer buying with a Second-Timer, the family income ceiling is halved to **$4,500**, and they receive the Singles-equivalent progressive quantum.*
 
 ---
 
-## 📜 SECTION 5: TIME WINDOWS AND PROPERTY LIFECYCLES
+### 3.3 Proximity Housing Grant (PHG)
+*Applies strictly to **Resale HDB Flat** purchases. Designed to encourage multi-generational living proximity.*
+* **Income Ceiling**: **No Income Ceiling** (Completely uncapped for all tiers).
+* **The Radius Condition**: The distance between the resale flat being purchased and the parents'/children's current residential address must be strictly **$\le$ 4km**. The target parents/children must also be owner-occupiers of their home.
 
-### 5.1 HDB Minimum Occupation Period (MOP)
-*Calculated strictly from the physical date of key collection, excluding any periods of unauthorized subletting or non-occupation.*
-
-* **Standard BTO / Resale Flats**: **5 Years**
-* **Prime Location Housing (PLH) / Plus Model Flats**: **10 Years**
-* **Fresh Start Housing Scheme**: **20 Years**
-
-### 5.2 Property Developer Transaction Lifecycles (Private Uncompleted Project)
-*Governed by the Housing Developers (Control & Licensing) Act (HDCLA).*
-
-* **Booking Fee**: **5% to 10% cash** required to issue Option to Purchase (OTP).
-* **Delivery of S&P Documents**: Developer must send S&P Agreement within **14 Days** from OTP date.
-* **Option Validity Window**: Expires **3 Weeks** after receipt of S&P by the buyer/solicitor.
-* **Balance Downpayment Due**: Remaining amount to reach 20% total downpayment is due within **8 Weeks** from the OTP date.
-* **Forfeiture Rate**: If the OTP expires without being exercised, the developer can forfeit **25% of the booking fee**; the remaining 75% must be refunded to the buyer.
+#### 📊 PHG Structural Quantum Matrix
+| Proximity Condition Type | Family / Couple Household | Single Citizen Applicant (Aged $\ge$ 35) |
+| :--- | :--- | :--- |
+| **Physically Living Together** (In the same resale unit) | **$30,000** | **$15,000** |
+| **Living Near Each Other** (Within a strict 4km radius) | **$20,000** | **$10,000** |
 
 ---
 
-## 📢 SECTION 6: ADVERTISEMENT RULES & DATA PRIVACY LOOKUPS
+### 3.4 New Launch Executive Condominium (EC) CPF Housing Grant
+*Applies strictly to **First-Timer Households** purchasing a brand-new Executive Condominium directly from a developer.*
+* **Income Ceiling Limit**: Combined monthly gross household income must not exceed **$12,000** (Note: Income ceiling to buy the EC unit is $16,000, but the grant ceiling stops at $12,000).
 
-### 6.1 CEA Practice Guidelines on Ethical Advertising
-* **Mandatory Inclusion Codes**: Every advertisement must feature:
-    1. Registered Name of the Estate Agent (Agency) and License Number.
-    2. Registered Name of the Salesperson and Registration Number.
-    3. Valid contact number registered with the agency.
-* **Banned Practices**: No anonymous "blind ads"; no unsubstantiated claims of being "Number 1" or "Top Producer" without independent proof; no discriminatory content.
-
-### 6.2 Outdoor Advertisements & Banners Licensing
-* **BCA Licensing**: External building banners require an Outdoor Advertisement License under the *Building Control (Outdoor Advertising) Regulations*.
-* **Clearances**: Directional signs or lamp-post banners require prior structural/space clearance from the LTA or SLA before submitting to BCA.
-
-### 6.3 Personal Data Protection Act (PDPA) & DNC Compliance
-* **DNC Registry Lookup**: Salespersons must check Voice, SMS, and Fax registries before running cold campaigns.
-* **Validity Window**: A DNC lookup scan remains valid for a maximum of **21 Days** from the search date.
-* **Consent**: Explicit written consent is mandatory before collecting or sharing sensitive identity data (like NRIC or passports) during transactional onboarding.
+#### 📊 New EC Grant Tier Matrix
+| Monthly Gross Household Income Range | SC / SC Household Quantum | SC / SPR Household Quantum |
+| :--- | :--- | :--- |
+| **$\le$ $10,000** | **$30,000** | **$20,000** |
+| **$10,001 to $11,000** | **$20,000** | **$10,000** |
+| **$11,001 to $12,000** | **$10,000** | **$5,000** |
+| **$>$ $12,000** | **$0** (Ineligible for grant) | **$0** (Ineligible for grant) |
 
 ---
 
-## 🏢 SECTION 7: PROPERTY TYPES, REQUISITE RATIOS, AND SPACE CLASSIFICATIONS
+## 🏦 SECTION 4: MAXIMUM LOAN QUANTUMS, TENURES, & LTV MATRICES
 
-### 7.1 URA Master Plan Planning Metrics
-$$\text{Gross Floor Area (GFA) Allowance} = \text{Total Site Land Area} \times \text{Plot Ratio}$$
+### 4.1 Individual Residential Bank Housing Loans (MAS Notice 632)
+*Maximum loan-to-value limits are conditioned by the number of active, outstanding residential housing loans held by the borrower, the requested loan tenure, and the borrower’s age.*
 
-### 7.2 Industrial Property Classifications
-* **Business 1 (B1)**: Clean and light industrial use; must not generate environmental nuisance beyond the property boundaries.
-* **Business 2 (B2)**: General and heavy industrial use.
-* **The 60:40 Core Industrial Rule**:
-    * At least **60%** of total Gross Floor Area (GFA) must be dedicated to core industrial activities (e.g., manufacturing, warehouse storage).
-    * A maximum of **40%** of the GFA can be used for ancillary purposes (e.g., offices, showrooms).
+#### 📊 MATRIX A: Standard LTV Limits (No Rules Violated)
+*Applies **ONLY** if the total loan tenure is $\le$ 30 years (or $\le$ 25 years for HDB flats) **AND** the loan maturity date does not extend beyond the borrower’s 65th birthday.*
 
-### 7.3 Private Property En Bloc Consent Tiers
-*Governed by the Land Titles (Strata) Act (LTSA).*
+| No. of Active Housing Loans | Max LTV Limit | Minimum Cash Downpayment | Remaining Downpayment (CPF OA or Cash) |
+| :--- | :--- | :--- | :--- |
+| **0 Outstanding Loans** | **75%** | **5%** | 20% |
+| **1 Outstanding Loan** | **45%** | **25%** | 30% |
+| **2 or More Outstanding** | **35%** | **25%** | 40% |
 
-* **Age of Building < 10 Years**: Requires minimum **90%** consent from owners by both total share value and total strata floor area.
-* **Age of Building $\ge$ 10 Years**: Requires minimum **80%** consent from owners by both total share value and total strata floor area.
-* **Age Calculation**: Calculated starting from the issuance date of the first **Temporary Occupation Permit (TOP)**.
+#### 📊 MATRIX B: Restricted LTV Limits (Tenure or Age Limit Violated)
+*Applies **INSTANTLY** if the loan tenure **exceeds 30 years** (or **exceeds 25 years for HDB flats**), OR if the loan maturity period **extends past the borrower’s 65th birthday**.*
 
-### 7.4 Private Leasing Occupancy Cap
-* **Private Residential Properties**: Total number of unrelated occupants allowed in a single private residential unit is capped at **6 individuals**. *(Note: The temporary relaxation to 8 individuals for larger spaces expires on December 31, 2028).*
+| No. of Active Housing Loans | Max LTV Limit | Minimum Cash Downpayment | Remaining Downpayment (CPF OA or Cash) |
+| :--- | :--- | :--- | :--- |
+| **0 Outstanding Loans** | **55%** | **10%** | 35% |
+| **1 Outstanding Loan** | **25%** | **25%** | 50% |
+| **2 or More Outstanding** | **15%** | **25%** | 60% |
+
+#### 🔑 CRITICAL JOINT BORROWER INCOME-WEIGHTED AVERAGE AGE (IWAA) FRAMEWORK
+For joint borrowers, the age used to determine whether the loan extends past 65 is calculated via:
+
+$$\text{IWAA} = \frac{(\text{Age of Borrower A} \times \text{Gross Monthly Income of A}) + (\text{Age of Borrower B} \times \text{Gross Monthly Income of B})}{\text{Gross Monthly Income of A} + \text{Gross Monthly Income of B}}$$
+
+* *Rule Apply Check*: If the calculated IWAA + the proposed loan tenure $> 65$, the loan structurally drops into **Matrix B** (Restricted LTV).
+
+### 4.2 Macroprudential Constraints (TDSR & MSR Limits)
+1.  **Total Debt Servicing Ratio (TDSR)**: Total combined monthly debt obligations must not exceed **55%** of gross monthly income. Calculated using a regulatory interest floor rate of **3.5% p.a.** for residential properties.
+2.  **Mortgage Servicing Ratio (MSR)**: Monthly mortgage repayments for the subject property must not exceed **30%** of gross monthly income. Applies to bank housing loans and HDB concessionary loans for **HDB flats** and **ECs** from developers.
+
+### 4.3 HDB Concessionary Housing Loans (Direct From HDB)
+* **Max LTV Cap**: **75%** of the property valuation or transaction price, whichever is lower (Effective Aug 20, 2024).
+* **Strict Maximum Tenure Cap**: Locked at **25 years** maximum. It cannot be extended.
+* **Maximum Age Constraint**: The loan tenure + the age of the youngest borrower **cannot exceed 65 years**.
+* **HDB Loan Interest Rate**: Pegged at **+0.10%** above the prevailing CPF Ordinary Account (OA) interest rate (Fixed baseline rate of **2.6% p.a.**).
 
 ---
 
-## 🚫 SECTION 8: PROHIBITED OFFENCES & STATUTORY PENALTIES
+## 🌳 SECTION 5: CPF HOUSING FUND USAGE & LEASE LIQUIDITY RULES
 
-### 8.1 Estate Agents Act (EAA) 2010 Core Offences
+### 5.1 The "Age 95" Remaining Lease Rule
+* **The 100% Rule**: To utilize the full allowable CPF Ordinary Account funds up to the **Valuation Limit (VL)**, the property’s remaining lease **must cover the youngest buyer to at least age 95**.
+* **Prorated Penalty Rule**: If the remaining lease of the property does *not* cover the youngest buyer to age 95, the maximum allowable CPF OA funds that can be deployed is mathematically restricted using this formula:
+    $$\text{Max CPF Allowable} = \frac{\text{Remaining Lease at Point of Purchase} - 20}{\text{Lease at Original TOP Issuance} - 20} \times \text{Lower of Valuation or Purchase Price}$$
+* **Absolute CPF Hard Floor**: If a property has a remaining lease of **less than 20 years**, **no CPF funds are allowed to be used at all**, and no housing loan (Bank or HDB) will be granted.
 
-#### 1. Unlicensed Estate Agency Work / Fake Practitioners (S28 / S29)
-* **Penalty**: Fine up to **$25,000**, imprisonment for up to **12 months**, or both.
+### 5.2 Valuation Limit (VL) vs. Withdrawal Limit (WL) Mechanics
+* **Valuation Limit (VL)**: The lower of the purchase price or the market valuation at the time of purchase.
+* **Withdrawal Limit (WL)**: Capped at **120%** of the Valuation Limit. 
+* **The BRS/FRS Safety Buffer Condition**: To use CPF OA funds beyond 100% of the VL up to the 120% WL cap, the buyer must have set aside the **Basic Retirement Sum (BRS)** (if they have a property safeguarding it) or the **Full Retirement Sum (FRS)** in their CPF accounts.
 
-#### 2. Ban on Dual Representation (Regulation 5(3))
-* **Rule**: Prohibited from representing both buyer and seller, or landlord and tenant, in the same transaction.
-* **Penalty**: Fine up to **$25,000**, imprisonment for up to **12 months**, or both.
+---
 
-#### 3. Prohibited Cash Transaction Monies Handling
-* **Rule**: Salespersons are strictly barred from handling cash transaction monies (e.g., option fees, rentals, security deposits) for any residential transaction.
+## 🏢 SECTION 6: HDB PUBLIC HOUSING RESTRICTIONS & POLICY TRAPS
 
-#### 4. Moneylender Referrals Prohibition
-* **Rule**: Salespersons must not refer clients to licensed or unlicensed moneylenders, or receive incentives from them. Penalty includes immediate registration revocation.
+### 6.1 BTO Flat Classifications (Post-October 2024 Launch Rules)
+1.  **Standard Flats**: Baseline properties. Standard **5-year MOP**. No clawback/subsidy recovery upon resale. Subletting of whole flat permitted after MOP.
+2.  **Plus Flats**: Choicer locations (e.g., near transit nodes). Strict **10-year MOP**. Subsidy recovery clawback required upon first sale (percentage fixed at launch). Private property owners face a **30-month wait-out period** before buying a Plus resale flat. Subletting of the whole flat is permanently banned.
+3.  **Prime Flats**: Centrally located, ultra-premium spots (formerly PLH model). Strict **10-year MOP**. Highest subsidy recovery clawback required upon first sale. Resale pool restricted strictly to households matching BTO eligibility criteria (including the **$14,000 income ceiling on resale buyers**). Subletting of the whole flat is permanently banned.
+
+### 6.2 Minimum Occupation Period (MOP)
+* Standard flats require a **5-year** MOP; Plus and Prime require a **10-year** MOP from key collection.
+* **The Private Property Ban Trap**: If any HDB flat owner or occupier acquires local or overseas private residential property during their active MOP, the flat is subjected to compulsory acquisition (repossession) by HDB.
+
+### 6.3 Non-Subsidized Resale Wait-Out Period (PPO Rule)
+* **Rule**: Current or former Private Property Owners (PPOs) must observe a mandatory **15-month wait-out period** after disposing of their private property before they can apply to purchase a non-subsidized HDB resale flat.
+* **Seniors Exemption Condition**: If a property owner is aged **55 or older** and is downsizing from their private property directly to a **4-room or smaller HDB resale flat**, the 15-month wait-out period is fully waived.
+
+---
+
+## 🏭 SECTION 7: COMMERCIAL & INDUSTRIAL PROPERTY CRITERIA
+
+### 7.1 Goods and Services Tax (GST) Application
+* **Commercial/Industrial Property**: Transactions (Sales and Leases) are fully subject to the prevailing GST rate (Currently **9%**) on the purchase price or rental rate.
+* **Residential Exemption**: GST is completely exempt on properties zoned or classified strictly as residential. For mixed-use properties, GST is levied exclusively on the prorated commercial floor area ratio.
+
+### 7.2 Seller's Stamp Duty (SSD) on Industrial Properties
+*Applies to industrial properties acquired on or after January 12, 2013.*
+* **Sold within the 1st Year of holding**: **15%** SSD.
+* **Sold within the 2nd Year of holding**: **10%** SSD.
+* **Sold within the 3rd Year of holding**: **5%** SSD.
+* **Sold after 3 Years**: **0%** (No SSD payable).
+
+---
+
+## 📜 SECTION 8: LANDLORD-TENANT STATUTORY COVENANTS
+
+### 8.1 Private Residential Property Occupancy Cap
+* **The Cap Limit**: The absolute total number of unrelated occupants legally permitted to reside in a single private residential unit is strictly capped at **6 individuals**. Anyone who is not part of the same nuclear family unit is considered unrelated.
+* **Historical Timeline Cutoff**: The temporary pandemic relaxation that allowed up to 8 individuals for larger units completely expires on **December 31, 2028**.
+
+### 8.2 En-Bloc (Collective Sale) Consent Thresholds
+* **Properties Less Than 10 Years Old (from TOP)**: Requires a minimum **90%** consent from owners by both total share value and total strata floor area.
+* **Properties 10 Years Old or Older (from TOP)**: Requires a minimum **80%** consent from owners by both total share value and total strata floor area.
+
+---
+
+## 🚫 SECTION 9: PROHIBITED AGENCY OFFENCES & STATUTORY PENALTIES
+
+### 9.1 Estate Agents Act (EAA) 2010 Core Offences
+
+#### 1. Acting as an Unlicensed Estate Agent / Property Agency (S28)
+* **Rule**: Entities/Companies cannot conduct estate agency work or hold themselves out as a property agency without possessing a valid license from CEA.
+* **Statutory Criminal Court Penalty**: A fine not exceeding **$75,000**, imprisonment for a term not exceeding **3 years**, or both.
+
+#### 2. Acting as an Unregistered Salesperson / Property Agent (S29)
+* **Rule**: No individual person can perform estate agency work or act as a property agent unless registered with CEA through a licensed agency.
+* **Statutory Criminal Court Penalty**: A fine not exceeding **$25,000**, imprisonment for a term not exceeding **12 months**, or both.
+
+#### 3. Strict Ban on Dual Representation (Regulation 5(3))
+* **Rule**: Prohibited from representing both Buyer & Seller, or Landlord & Tenant, in the exact same real estate transaction, even if both parties offer explicit written consent.
+* **Statutory Criminal Court Penalty**: A fine not exceeding **$25,000**, imprisonment for a term not exceeding **12 months**, or both.
+
+#### 4. Prohibited Cash Transaction Monies Handling (Regulation 7(3))
+* **Rule**: Strictly barred from handling cash transaction monies (including Option Fee cash, rental deposits, or downpayments) for any residential transaction. All transaction monies must pass through traceable means directly between principals.
+* **Statutory Criminal Court Penalty**: A fine not exceeding **$10,000**, imprisonment for a term not exceeding **6 months**, or both.
+
+#### 5. Moneylender Referrals Prohibition (Regulation 6(2))
+* **Rule**: Must never introduce, refer, recommend, or pass a client's details to any licensed or unlicensed moneylender, nor receive any referral kickbacks.
+* **Statutory Criminal Court Penalty**: A fine not exceeding **$25,000**, imprisonment for a term not exceeding **12 months**, or both (triggers immediate regulatory revocation of license).
+
+### 9.2 Penalty Compounding & Stacking Mechanics (For Case-Study Calculations)
+1.  **Per-Contravention Arithmetic Stacking Rule**: All financial and custodial limits prescribed under Section 9 apply **strictly on a per-charge basis**. There is no cumulative or global ceiling to cap penalties if multiple offences are committed. Fines multiply linearly with every distinct infraction processed.
+2.  **Distinct Act Counting**: Every separate transaction document handled unlawfully (e.g., collecting three separate monthly rental checks in cash) or every separate individual client defrauded constitutes a completely independent, separately chargeable offence.
+3.  **The Consecutive Jail Sentence Rule**: In accordance with the Criminal Procedure Code, if a salesperson is convicted of **three or more distinct proceeded offences** carrying custodial sentences, the court is legally required to order the jail terms for at least **two** of those offences to run **consecutively** (one after another), rather than concurrently (overlapping).
+4.  **Criminal Court Jurisdiction vs. CEA Disciplinary Committee Jurisdiction**:
+    * **State Courts**: Can impose the statutory court fines per charge and/or issue prison terms.
+    * **CEA Disciplinary Committee**: Cannot issue jail sentences, but can levy administrative financial penalties **up to $100,000 per contravention** against an individual salesperson (and up to $200,000 per contravention against a property agency), alongside suspension or license revocation.
