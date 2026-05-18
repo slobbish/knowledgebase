@@ -173,6 +173,8 @@
 | **$11,001 to $12,000** | **$10,000** | **$5,000** |
 | **$>$ $12,000** | **$0** (Ineligible for grant) | **$0** (Ineligible for grant) |
 
+---
+
 ### 3.5 Step-Up CPF Housing Grant (SUHG)
 *Available strictly to eligible **Second-Timer** applicants (married couples or families) who have previously enjoyed exactly one housing subsidy, or who are upgrading from public rental schemes.*
 * **The Structural Quantum**: A fixed baseline injection of **$15,000**, credited straight to the core applicants' CPF Ordinary Accounts based on their eligible share.
@@ -324,3 +326,46 @@ $$\text{IWAA} = \frac{(\text{Age of Borrower A} \times \text{Gross Monthly Incom
 4.  **Criminal Court Jurisdiction vs. CEA Disciplinary Committee Jurisdiction**:
     * **State Courts**: Can impose the statutory court fines per charge and/or issue prison terms.
     * **CEA Disciplinary Committee**: Cannot issue jail sentences, but can levy administrative financial penalties **up to $100,000 per contravention** against an individual salesperson (and up to $200,000 per contravention against a property agency), alongside suspension or license revocation.
+	
+	---
+
+## 🏢 SECTION 10: SALE OF BALANCE FLATS (SBF) SYSTEM FRAMEWORK
+
+### 10.1 Core Structural Definition & Inventory Sources
+* **Sale of Balance Flats (SBF)**: Leftover inventory offered alongside standard BTO exercises, comprising:
+    1. Surplus unselected flats from historical BTO exercises.
+    2. Surplus replacement flats from Selective En Bloc Redevelopment Scheme (SERS) exercises.
+    3. Repurchased units surrendered or repossessed by HDB.
+* **The Classification Exemption Clause (The October 2024 Buffer)**: SBF units sourced from BTO projects originally launched **prior to October 2024** are legally exempt from the Standard/Plus/Prime classification framework. These remain **"Unclassified" flats**, keeping a standard **5-year MOP** and carrying **0% subsidy recovery (clawback)** rules, regardless of their location premium.
+
+### 10.2 Income Ceilings & Subsidy Qualification (SBF Purchase)
+SBF units mirror BTO purchase criteria under the HFE assessment framework:
+* **2-room Flexi (99-year lease)**: $7,000 household ceiling for couples / $7,000 for individual singles.
+* **3-room Flat**: $7,000 or $14,000 depending on the project's original launching designation.
+* **4-room, 5-room, and Executive Flats**: Strict **$14,000** monthly gross household income ceiling.
+* **Multi-Generation / Extended Family Households**: Raised to **$21,000** maximum.
+* **Singles Restriction Clause**: Individual First-Timer Singles (aged $\ge$ 35) are restricted strictly to **2-room Flexi SBF units**; they are legally barred from applying for 3-room or larger units in an SBF exercise.
+
+### 10.3 Supply Allocation Quota Metrics (SBF vs. BTO Standard Distribution)
+* **Second-Timer Family Allocation Cap**: Restricted to a maximum of **5%** of the public flat supply in standard/plus projects during an SBF exercise (compared to up to 20% in standard BTO launches).
+* **Senior Priority Quota**: A minimum of **40%** of available 2-room Flexi flats are legally carved out and reserved for seniors under the Senior Priority Scheme (SPS) or Family Care Scheme (FCS).
+
+---
+
+## 📄 SECTION 11: HDB FLAT ELIGIBILITY (HFE) LETTER STATUTORY COVENANTS
+
+### 11.1 The Mandatory Trigger Milestones
+A valid, approved HFE letter is an absolute statutory prerequisite. Transactions attempted without an approved HFE at these precise milestones are legally void:
+* **New Launch Purchases (BTO / SBF / Open Booking)**: Must hold a valid HFE letter **at the exact time of submitting the online flat application** during the sales exercise.
+* **Open Market Resale Purchases**: Must hold a valid HFE letter **before the buyer can legally obtain an Option to Purchase (OTP)** from the seller. An OTP signed before the HFE issuance date is invalid.
+
+### 11.2 Timelines, Validity, and Application Lifecycles
+1. **The 30-Day Preliminary Link Rule**: Home seekers must first complete a *Preliminary HFE Check* via the HDB Flat Portal (giving an instant indicative budget). The official, formal *HFE Letter Application* must be submitted **within 30 calendar days** of starting the preliminary check. Failure to do so deletes the profile, requiring a fresh restart.
+2. **Statutory Validity Window**: Once officially issued by HDB, an HFE letter is valid for a maximum of **9 months**.
+3. **The Non-Extension Rule**: The 9-month validity window is structurally hard-locked. HDB **cannot grant extensions**. If the 9-month window lapses before a flat application is submitted or a resale OTP is obtained, the applicant must file a completely fresh HFE application.
+
+### 11.3 The "Point of Assessment" Rule & Non-Reviewability (Grants vs. Income Changes)
+* **The Lock-In Principle**: A household’s baseline eligibility to purchase, their eligible HDB concessionary loan amount, and their specific progressive Enhanced CPF Housing Grant (EHG) quantum are locked in based on their socio-economic data **at the exact point of the HFE letter application**.
+* **Income Increase / Exceeding Ceilings**: If a household's gross income spikes *after* the HFE letter is issued, they can still legally buy a flat within the 9-month validity window using that letter. Their grant amounts and purchase rights are protected.
+* **Income Drop / Grant Upgrades (The Cancellation Trap)**: If a household’s employment conditions improve to meet grant requirements (e.g., fulfilling the continuous 12-month employment rule for EHG *after* issuance), HDB **will not update or review** the current letter. To claim the higher grant, the applicant must **cancel their active HFE letter** and submit a brand-new application, restarting the processing queue (approx. 21 working days).
+* **The Financial Prudence Floor (Loan Adjustments)**: Unlike grants, HDB reserves the right to downwardly revise the maximum housing loan amount stated in an active HFE letter prior to disbursement if there are **adverse structural updates** to the applicant's financial situation (e.g., new default notices, loss of employment, or a massive drop in income that breaches TDSR/MSR rules).
